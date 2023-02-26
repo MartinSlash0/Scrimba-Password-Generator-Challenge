@@ -1,0 +1,147 @@
+html {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 50px auto 50px auto;
+}
+
+#top-container {
+    text-align: center;
+
+    border-bottom: 1px solid #2F3E53;
+
+}
+
+#h2-white {
+    font-weight: bold;
+    color: whitesmoke;
+
+    margin: 0;
+}
+#h2-green {
+    font-weight: bold;
+    color: #4ADF86;
+    
+    margin: 0;
+}
+
+#top-container p {
+   color: #D5D4D8;
+}
+
+#generator {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+
+    color: whitesmoke;
+    background-color: #4ADF86;
+
+    border: none;
+    border-radius: 6px;
+
+    margin: 25px 15px;
+    padding: 10px 15px 10px 17px;
+}
+#generator:hover {
+    cursor: pointer;
+}
+
+
+#bottom-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    text-align: center;
+
+    height: 120px;
+}
+
+.password {
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #273549;
+    color: #4ADF86;
+
+    width: 211px;
+    height: 40px;
+    
+    padding: 5px 25px;
+    margin-top: 2px;
+}
+.password:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 574px) {
+    #container {
+        width: 500px;
+        height: auto;
+    }
+    #top-container {
+        text-align: left;
+        padding-left: 53px;
+
+        border-bottom: 1px solid #2F3E53;
+        width: 100%;
+    }
+    #generator {
+        font-family: 'Karla', sans-serif;
+        font-size: 1rem;
+    
+        color: whitesmoke;
+        background-color: #4ADF86;
+    
+        border: none;
+        border-radius: 6px;
+
+        width: 211px;
+    
+        margin: 25px 0px;
+        padding: 10px 15px 10px 17px;
+    }
+
+    #bottom-container { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        text-align: center;
+    
+        height: 70px;
+        width: 100%;
+    }
+    .password {
+        font-family: 'Karla', sans-serif;
+        font-size: 1rem;
+    
+        border: none;
+        border-radius: 6px;
+    
+        background-color: #273549;
+        color: #4ADF86;
+    
+        width: 211px;
+        height: 40px;
+        
+        padding: 5px 8px;
+    }
+}
